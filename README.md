@@ -85,7 +85,7 @@ Each time a line is sent over the terminal, it will add to the scroll display. T
 
 The terminal will not allow thonny to talk to the board anymore (REPL is disabled). To get back to REPL and the ability to change/update the code, it is necessary to use the safe-pin (currently GPIO21) and ground it. This can easily be done using the cable that comes with the set, and connecting the yellow (GPIO21) to black (ground) connection:
 
-![alt text](image-10.png)
+![alt text](image-11.png)
 
 Connect this cable, press RESET button on the board, and it should now reappear in Thonny. Simply remove the cable to go back to the terminal.
 
